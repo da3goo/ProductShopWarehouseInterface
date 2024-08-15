@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ManageDBController">
+   <children>
+      <Button fx:id="addNewItem" layoutX="229.0" layoutY="14.0" mnemonicParsing="false" onAction="#addNewItemToDB" prefHeight="48.0" prefWidth="141.0" text="Add a new item">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="editButton" layoutX="229.0" layoutY="86.0" mnemonicParsing="false" onAction="#openEditInterface" prefHeight="48.0" prefWidth="141.0" text="Edit">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="backFromManageDB" layoutX="229.0" layoutY="226.0" mnemonicParsing="false" onAction="#goBackFromManageDB" prefHeight="48.0" prefWidth="141.0" text="Back">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="clearAll" layoutX="229.0" layoutY="161.0" mnemonicParsing="false" onAction="#openCleanUpInterface" prefHeight="48.0" prefWidth="141.0" text="Clear all data" textFill="#fd0000">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

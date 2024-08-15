@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="628.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AdminInterfaceController">
+   <children>
+      <Label alignment="CENTER" layoutX="231.0" layoutY="27.0" prefHeight="81.0" prefWidth="125.0" text="Welcome Daulet!">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="manageDBButton" layoutX="169.0" layoutY="135.0" mnemonicParsing="false" onAction="#openManageDBInterface" prefHeight="33.0" prefWidth="250.0" text="Manage DB">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitFromManageButton" layoutX="169.0" layoutY="512.0" mnemonicParsing="false" onAction="#goBackToMain" prefHeight="33.0" prefWidth="250.0" text="Exit">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

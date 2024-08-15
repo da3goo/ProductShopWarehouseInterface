@@ -1,0 +1,41 @@
+
+
+.button:hover {
+    -fx-font-size: 13px;
+}
+.button:pressed {
+
+}
+
+
+#backButton{
+    -fx-background-color: #000000; /* Основной цвет кнопки */
+    -fx-text-fill: white; /* Цвет текста */
+    -fx-cursor: pointer;
+}
+#backButton:hover {
+    -fx-effect: innershadow(gaussian, #ff0000, 25, 0, 0, 0);
+}
+#backButton:pressed{
+    -fx-background-color: #ffffff;
+    -fx-text-fill:black ;
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+
+#refreshButton{
+    -fx-background-color: #000000; /* Основной цвет кнопки */
+    -fx-text-fill: white; /* Цвет текста */
+    -fx-cursor: pointer;
+}
+#refreshButton:hover {
+    -fx-effect: innershadow(gaussian, #ff0000, 25, 0, 0, 0);
+}
+#refreshButton:pressed{
+    -fx-background-color: #ffffff;
+    -fx-text-fill:black ;
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+
+
